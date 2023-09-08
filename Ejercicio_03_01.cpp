@@ -4,7 +4,7 @@
 
 // Fecha creación: 05/09/2023
 
-// Fecha modificación: 05/09/2023
+// Fecha modificación: 07/09/2023
  
 // Número de ejericio: 1
 
@@ -35,7 +35,7 @@ int main()
     for(int i = 1; i < n; i++){
         for(int j = 0; j < n; j++){ 
             if (i==n-1){
-                cout << g[0][j] << "\t";
+                cout << g[0][j] << "\t"; // el cambio de linea
             }
             else{
                 cout << g[i][j] << "\t";

@@ -28,9 +28,7 @@ int main() {
         cout << "no valido" << endl;
         return 1;
     }
-    int D; 
-    cout << "Ingrese la cantidad de departamentos: ";
-    cin >> D;
+    int D = 9;
     if (D <= 0) {
         cout << "no valido" << endl;
         return 1;

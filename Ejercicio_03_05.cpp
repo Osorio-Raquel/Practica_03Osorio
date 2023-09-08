@@ -4,7 +4,7 @@
 
 // Fecha creación: 05/09/2023
 
-// Fecha modificación: 05/09/2023
+// Fecha modificación: 07/09/2023
  
 // Número de ejericio: 5
 
@@ -33,7 +33,7 @@ int main()
             }
             else{
                 if (j == 0){
-                    c = a[i-1][n/2];
+                    c = a[i-1][n/2]; // tomo l valor de el medio
                 }
                 a[i][j] =c;
                 c++;
